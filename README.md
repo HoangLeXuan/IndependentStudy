@@ -1,6 +1,41 @@
-# IndependentStudy
+# Modeling the Demographic of Immigrant Human Capital in 2021 
 
-This paper examines and analyzes the factors influencing employment and unemployment rates across various demographic groups, using the 2021 National Survey of College Graduates (NSCG) dataset. The study focuses on a wide array of determinants including age, gender, race, education levels, parental education, job preferences, and citizenship status. To predict employment outcomes, five distinct statistical and machine learning models are utilized: a Multivariate Logit Model, a Deep Learning Logit Model, a Probit Model, a Random Forest Model, and a K-nearest Neighbors (K-n) Model. We create a tailored subset of variables for each model to enhance prediction accuracy and address specific statistical issues such as multicollinearity and overfitting. The analysis details the results of these models, discusses the occurrence and implications of identified errors, and aims at explaining the reasons behind them. The objective of this study is to identify key predictive variables and compare the accuracy of these models in interpreting labor market dynamics.
+This repository contains all the datasets, code files, results, graphs, plots, and tables for our study on employment and unemployment rates across various demographic groups. We utilized the 2021 National Survey of College Graduates (NSCG) dataset, focusing on factors such as age, gender, race, education levels, parental education, job preferences, and citizenship status.
 
-This repository consists of all our datasets, code files, results, graphs, plots and tables. 
+## Objective
 
+Our study aims to identify key predictive variables and compare the accuracy of various statistical and machine learning models in interpreting labor market dynamics.
+
+## Models Used
+
+- Multivariate Logit Model
+- Deep Learning Logit Model
+- Probit Model
+- Random Forest Model
+- K-nearest Neighbors (K-n) Model
+
+Each model is tailored with a subset of variables to enhance prediction accuracy while addressing statistical issues like multicollinearity and overfitting.
+
+## Repository Structure
+
+- `data/` - Contains all datasets used in this study.
+- `code/` - Contains all scripts and code files for running the statistical and machine learning models. The results are included in the Rmd files of the code.
+
+## Installation
+
+To run the scripts, clone this repository and install the required packages:
+google.colab
+pandas
+numpy
+sklearn.model_selection
+sklearn.preprocessing
+sklearn.compose
+sklearn.pipeline
+sklearn.neighbors
+sklearn.metrics
+matplotlib.pyplot
+seaborn
+sklearn.feature_selection
+
+```bash
+git clone https://github.com/kahf10/IndependentStudy.git
