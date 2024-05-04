@@ -8,11 +8,11 @@ Our study aims to identify key predictive variables and compare the accuracy of 
 
 ## Models Used
 
-- Multivariate Logit Model
-- Deep Learning Logit Model
-- Probit Model
-- Random Forest Model
+- RFE Logit model
+- Logit Lasso Regression Model
 - K-nearest Neighbors (K-n) Model
+- Random Forest Model
+- Deep Learning Logit Model
 
 Each model is tailored with a subset of variables to enhance prediction accuracy while addressing statistical issues like multicollinearity and overfitting.
 
